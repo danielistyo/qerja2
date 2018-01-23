@@ -101,7 +101,8 @@ Elevator.prototype.decide = function () {
                 var destElev = elev.get_destination_floor();
                 var reqFloor = requests[i];
 
-                if ((Math.abs(destElev - reqFloor) < Math.abs(nearestElev.get_destination_floor() - reqFloor))) {
+                if ((Math.abs(destElev - reqFloor) < Math.abs(nearestElev.get_destination_floor() - reqFloor)) &&
+                    elev.people.length < elev.max_num_people) {
                     nearestElev = elev;
                 }
             }

@@ -1,3 +1,4 @@
+
 Elevator Simulation Problem  
   
 Edit only the function definition of Elevator.prototype.decide() in myelevator.js.  
@@ -7,3 +8,7 @@ Try to:
 2. minimize total_people_wait_time_out_elevator  
 3. minimize total_elevator_traveled_distance  
 4. maximize total_delivered_people  
+
+## Answer
+
+Click <a href="https://danielistyo.github.io/qerja2/">here</a> for demo
